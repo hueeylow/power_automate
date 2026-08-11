@@ -36,4 +36,7 @@ In this post, I will walk through the process design, SharePoint List structure,
 <li>The Finance approval outcome is recorded in the SharePoint list.</li>
 <li>Once Finance completes the approval, the requestor receives another Microsoft Teams notification with the latest approval status.</li></ul>
 </p>
-<h4>Process Flow</h4>
+<br>
+<p align="center">
+  <img alt="center" src="https://github.com/hueeylow/power_automate/blob/main/00.png"/>
+</p>
