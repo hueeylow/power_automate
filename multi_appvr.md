@@ -47,7 +47,7 @@ In this post, I will walk through the process design, SharePoint List structure,
   <img alt="center" src="https://github.com/hueeylow/power_automate/blob/main/01.png"/>
 </p>
 
-<h3>3.1 Expense Claim Submission</h3>
+<h3>i. Expense Claim Submission</h3>
 <p>The workflow is triggered when a new expense claim is submitted.</p>
 <p>Once the request is created, Power Automate retrieves the relevant information from the Sharepoint list, such as:</p>
 <ul>
@@ -61,7 +61,97 @@ In this post, I will walk through the process design, SharePoint List structure,
 <p>The initial approval status is recorded in Sharepoint to indicate that the expense claim has entered the approval process.</p>
 
 <p align="center">
-  <img alt="center" src="https://github.com/hueeylow/power_automate/blob/main/02.png"/><br>
-  <img alt="center" src="https://github.com/hueeylow/power_automate/blob/main/03.png"/><br>
-  <img alt="center" src="https://github.com/hueeylow/power_automate/blob/main/04.png"/><br>
+  <img alt="center" src="https://github.com/hueeylow/power_automate/blob/main/02.png"/></br></br>
+  <img alt="center" src="https://github.com/hueeylow/power_automate/blob/main/03.png"/></br></br>
+  <img alt="center" src="https://github.com/hueeylow/power_automate/blob/main/04.png"/></br></br> 
+</p>
+
+<h3>ii. First Level Manager Approval</h3>
+
+<p>The first approval stage is assigned to the requestor's manager.</p>
+<p>Power Automate creates an approval request and routes it to the appropriate manager. The manager can review the expense claim and either approve or reject the request. The workflow then evaluates the manager’s response.
+</p>
+
+<b><p>If the manager approves the claim:</p></b>
+<ul>
+<li>The SharePoint approval status is recorded to reflect manager’s approval.</li>
+<li>A Microsoft teams notification is sent to the requestor to inform them that the first-level approval has been completed.</li>
+<li>The workflow proceeds to the 2nd Level Finance approval.</li>
+</ul>
+
+<b><p>If the manager rejects the claim:</p></b>
+<ul>
+<li>The SharePoint approval status is updated accordingly.</li>
+<li>The requestor is notified through Microsoft Teams.</li>
+<li>The workflow ends without proceeding to Finance.</li>
+</ul>
+
+
+<p align="center">
+  <img alt="center" src="https://github.com/hueeylow/power_automate/blob/main/05.png"/></br></br>
+  <img alt="center" src="https://github.com/hueeylow/power_automate/blob/main/06.png"/></br></br>
+  <img alt="center" src="https://github.com/hueeylow/power_automate/blob/main/07.png"/></br></br>
+  <img alt="center" src="https://github.com/hueeylow/power_automate/blob/main/08.png"/></br></br>
+  <img alt="center" src="https://github.com/hueeylow/power_automate/blob/main/09.png"/></br></br>
+</p>
+
+<h3>iii. Updating Approval Status in SharePoint List</h3>
+<p>After each approval stage, Power Automate updates the corresponding SharePoint record, with either Approve or Reject status.</p>
+
+<p align="center">
+  <img alt="center" src="https://github.com/hueeylow/power_automate/blob/main/14.png"/></br></br>
+  <img alt="center" src="https://github.com/hueeylow/power_automate/blob/main/15.png"/>
+</p>
+
+<h3>iv. Second Level Finance Approval</h3>
+
+<p>After the manager approves the expense claim, Power Automate routes the request to the Finance team for second level of approval.</p>
+<p>Finance reviews the expense claim and provides the final approval decision. The workflow again evaluates the Finance approval outcome.</p>
+
+<b><p>If Finance approves the claim:</p></b>
+<ul>
+<li>The SharePoint approval status is recorded to reflect the final approval.</li>
+<li>A Microsoft teams notification is sent to the requestor.</li>
+<li>The expense claim approval process is completed.</li>
+</ul>
+
+<b><p>If Finance rejects the claim:</p></b>
+<ul>
+<li>The SharePoint approval status is recorded to reflect the final approval.</li>
+<li>A Microsoft teams notification is sent to the requestor.</li>
+<li>The workflow will be ended.</li>
+</ul>
+
+<p align="center">
+  <img alt="center" src="https://github.com/hueeylow/power_automate/blob/main/10.png"/></br></br>
+  <img alt="center" src="https://github.com/hueeylow/power_automate/blob/main/11.png"/></br></br>
+  <img alt="center" src="https://github.com/hueeylow/power_automate/blob/main/12.png"/></br></br>
+  <img alt="center" src="https://github.com/hueeylow/power_automate/blob/main/13.png"/></br></br>
+</p>
+
+<h3>4. End-to-End Automation</h3>
+<p>The completed Power Automate workflow therefore connects the entire expense claim approval process:</p>
+<p>
+  <b>SharePoint List</b></br>
+<b>-></b> Store expense claims information and approval status
+</p>
+
+<p>
+  <b>Power Automate</b></br>
+<b>-></b> Control the approval logic, routing, status updates, and notifications
+</p>
+
+
+<p>
+  <b>Microsoft Approvals</b></br>
+<b>-></b> Handles manager and Finance approval actions
+</p>
+
+
+
+<p>
+  <b>Microsoft Teams</b></br>
+<b>-></b> Keep requestor informed of approval progress and final outcome. </br>
+This automation reduces manual intervention, improves visibility of approval status, and provides a consistent approval process from expense claim submission through to final Finance approval.
+
 </p>
