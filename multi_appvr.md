@@ -133,25 +133,26 @@ In this post, I will walk through the process design, SharePoint List structure,
 <p>The completed Power Automate workflow therefore connects the entire expense claim approval process:</p>
 <p>
   <b>SharePoint List</b></br>
-<b>-></b> Store expense claims information and approval status
+Store expense claims information and approval status
 </p>
 
 <p>
   <b>Power Automate</b></br>
-<b>-></b> Control the approval logic, routing, status updates, and notifications
+Control the approval logic, routing, status updates, and notifications
 </p>
 
 
 <p>
   <b>Microsoft Approvals</b></br>
-<b>-></b> Handles manager and Finance approval actions
+Handles manager and Finance approval actions
 </p>
 
 
 
 <p>
   <b>Microsoft Teams</b></br>
-<b>-></b> Keep requestor informed of approval progress and final outcome. </br>
+Keep requestor informed of approval progress and final outcome. </br>
 This automation reduces manual intervention, improves visibility of approval status, and provides a consistent approval process from expense claim submission through to final Finance approval.
-
 </p>
+</br>
+<a href= "https://www.github.com/hueeylow"> << Back </a>
