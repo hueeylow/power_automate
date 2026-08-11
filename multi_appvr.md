@@ -40,3 +40,28 @@ In this post, I will walk through the process design, SharePoint List structure,
 <p align="center">
   <img alt="center" src="https://github.com/hueeylow/power_automate/blob/main/00.png"/>
 </p>
+<h3>3. Power Automate Workflow</h3>
+<p>The expense claim approval process was automated using <b>Microsoft Power Automate</b>, with <b>SharePoint list </b> used to store and maintain the expense claim records and <b>Microsoft Teams</b> used to provide real-time notifications to the requestor.</p>
+<p>The workflow is designed to automate the complete approval journey from submission through to the final Finance decision.</p>
+<p align="center">
+  <img alt="center" src="https://github.com/hueeylow/power_automate/blob/main/01.png"/>
+</p>
+
+<h3>3.1 Expense Claim Submission</h3>
+<p>The workflow is triggered when a new expense claim is submitted.</p>
+<p>Once the request is created, Power Automate retrieves the relevant information from the Sharepoint list, such as:</p>
+<ul>
+<li>Requestor</li>
+<li>Expense claim details</li>
+<li>Claim amount</li>
+<li>Submission Date</li>
+<li>Manager</li>
+<li>Approval Status</li>
+</ul>
+<p>The initial approval status is recorded in Sharepoint to indicate that the expense claim has entered the approval process.</p>
+
+<p align="center">
+  <img alt="center" src="https://github.com/hueeylow/power_automate/blob/main/02.png"/><br>
+  <img alt="center" src="https://github.com/hueeylow/power_automate/blob/main/03.png"/><br>
+  <img alt="center" src="https://github.com/hueeylow/power_automate/blob/main/04.png"/><br>
+</p>
