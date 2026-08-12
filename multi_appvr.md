@@ -2,7 +2,7 @@
 <h3>1. Introduction</h3>
 <p>Expense claims are a common business process that often require multiple levels of approval. Most organisation have existing expense claim system in place, but the solution came with relatively high licensing and maintenance costs.</p>
 
-<p>This project explores how <b>Microsoft Power Automate and SharePoint List</b>can be used to provide a simpler and more cost-effective approach to managing the expense claim process.</p>
+<p>This project explores how <b>Microsoft Power Automate and SharePoint List</b> can be used to provide a simpler and more cost-effective approach to managing the expense claim process.</p>
 
 <p>
 In this project, I built a <b>two-level expense claim approval workflow</b>, where a claim is first submitted to the requestor manager for approval and, once approved, is routed to the Finance Head for final approval. </p>
