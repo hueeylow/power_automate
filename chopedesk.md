@@ -13,7 +13,7 @@
 
 <p>It also includes booking validation and an audit trail, where booking creation and deletion activities are captured in an Excel file stored in SharePoint.</p>
 
-<h3>1. Project Objectives</h3>
+<h3>2. Project Objectives</h3>
 <p>The main objectives of the Chope My Desk Portal are to:</p>
 <ul>
 
@@ -24,3 +24,20 @@
 <li>Audit trail to ensure booking activities are traceable.</li>
 
 </ul>
+
+<h3>3. Key Features</h3>
+<b>Normal User</b></br>
+Normal users can access the portal to manage their own desk reservations efficiently and securely.</br>
+</br>
+<b>1. Create a Desk Booking</b></br>
+Users can select a preferred date and reserve any desk that is available for that day.<br><br>
+<b>2. View Booking Summary</b></br>
+Users can view their current reservation details, including the <b>booking date and reserved desk.</b><br><br>
+<b>3. Delete Own Booking</b></br>
+Users can remove their own reservation when the desk is no longer required.</b><br><br>
+<b>4. View Desk Availability</b></br>
+The main page displays real-time desk availability based on the selected date.</b><br><br>
+<b>5. Prevent Multiple Bookings</b></br>
+Users cannot create more than one reservation for the same day.</b><br><br>
+<b>6. Prevent Double Booking</b></br>
+A desk that has already been reserved for a selected date cannot be booked by another user.</b><br><br>
