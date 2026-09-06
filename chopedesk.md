@@ -5,13 +5,6 @@
 <p>Employees may not know which desks are available beforehand. Without a proper booking process, this can lead to desk conflicts and unnecessary manual coordination.</p>
 <p>This is where <b>Chope My Desk Portal</b> comes into the picture, to allow employees to book their preferred work desk.</p>
 <p>The Chope My Desk Portal is a Power App application designed to simplify the hotdesking experience by providing a centralised platform where users can check desk availability, make reservations, and manage their bookings. </p>
-<p>The application has two user paths:</p>
-<ul>
-  <li>Normal User</li>
-  <li>Adminstrator</li>
-</ul>
-
-<p>It also includes booking validation and an audit trail, where booking creation and deletion activities are captured in an Excel file stored in SharePoint.</p>
 
 <h3>2. Project Objectives</h3>
 <p>The main objectives of the Chope My Desk Portal are to:</p>
@@ -21,12 +14,16 @@
 <li>Booking controls to prevent duplicate bookings and double-booking of desks.</li>
 <li>Reservation management for users to manage their own bookings.</li>
 <li>Admin management with visibility and ability to create, manage, and delete bookings.</li>
-<li>Audit trail to ensure booking activities are traceable.</li>
 
 </ul>
 
 <h3>3. Key Features</h3>
-<b>Normal User</b></br>
+<p>The application has two user paths:</p>
+<ul>
+  <li>Normal User</li>
+  <li>Administrator</li>
+</ul>
+<h3><b>Normal User</b></h3>
 Normal users can access the portal to manage their own desk reservations efficiently and securely.</br>
 </br>
 <b>1. Create a Desk Booking</b></br>
@@ -41,3 +38,20 @@ The main page displays real-time desk availability based on the selected date.</
 Users cannot create more than one reservation for the same day.</b><br><br>
 <b>6. Prevent Double Booking</b></br>
 A desk that has already been reserved for a selected date cannot be booked by another user.</b><br><br>
+
+<h3><b>Administrator</b></br></h3>
+Administrators have additional access and functionality to manage reservations across all users.<br><br>
+<b>View All Booking Reservations</b><br>
+Administrators can view booking summaries for all users. This provides a centralised overview of desk usage.<br><br>
+<b>1. View All Booking Reservations</b></br>
+Administrators can view booking summaries and reservation details for all users.
+This provides a centralised overview of desk usage.<br><br>
+<b>2. Delete Any User's Booking</b></br>
+Administrators can delete reservations belonging to any user when required.<br><br>
+<b>3. View Desk Availability</b></br>
+Administrators can also check desk availability based on the selected date.<br><br>
+<b>4. Create Booking on Behalf of a Employee</b></br>
+Administrators can create a desk reservation for another user by inputing user's name and select an available desk.
+This is useful when an administrator needs to manage a reservation on behalf of an employee.
+<br><br>
+
