@@ -80,5 +80,42 @@ Outcome: Validation successfully prevents duplicate reservation. </br>
 <b>b. Duplicate Booking Validation Message </b></br>
 [To insert you already have a booking for this date screenshot]</br>
 
+<h4>3.3 Prevent Double Booking of the Same Desk</h4>
+
+The application ensures that a desk can only be reserved once for a given date. </br></br>
+
+<b>Validation Flow</b></br>
+i. User A reserves a desk.</br>
+ii. User B attempts to reserve the same desk for the same date.</br>
+iii. The system checks for desk availability.</br>
+iv. The booking request is rejected.</br></br>
+Outcome: Double booking is successfully prevented. </br>
+
+<b>a. Desk Already Reserved </b></br>
+[To insert desk is already reserved screenshot]</br>
+
+<b>a. Double Booking Error Message </b></br>
+[To insert desk is already booked error screenshot]</br>
+
+Example Message </br>
+This desk has already been reserved for the selected date. Please choose another desk. </br></br>
+
+<h4>3.4 Delete Existing Reservation</h4>
+Users can manage their own reservations and delete bookings when required.</br></br>
+
+<b>Demo Flow</b></br>
+i. Navigates to <b>My Reservations</b> </br>
+ii. Select the booking. </br>
+iii. Click on <b>Delete this booking.</b> </br>
+iv. Booking is deleted successfully. </br></br>
+Outcome: Users can maintain their own reservations without administrator intervention.</br>
+
+<b>a. My Reservations Page</b></br>
+[To insert my reservation screenshot]</br>
+
+<b>b. Reservation Deleted Successfully</b></br>
+[To insert successful deletion notification]</br>
+
+
 
 <h3><b>Be right back. Editing in progress .. </b></h3>
