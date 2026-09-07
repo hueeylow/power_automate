@@ -52,10 +52,10 @@ This is useful when an administrator needs to manage a reservation on behalf of 
 <p>Employee can view current desk availability based on selected date and reserve an available workspace for their preferred date.</p>
 
 <b>i. Demo Flow</b>
-1. Select a booking date. </br>
-2. Desk availability is displayed on the right pane of the screen. </br>
-3. Select an available desk. </br>
-4. Submit the booking request. </br>
+i. Select a booking date. </br>
+ii. Desk availability is displayed on the right pane of the screen. </br>
+iii. Select an available desk. </br>
+iv. Submit the booking request. </br>
 
 Outcome: Notification on booking request is successfully created. </br></br>
 <b>ii. Desk Availability </b></br>
@@ -66,6 +66,14 @@ Outcome: Notification on booking request is successfully created. </br></br>
 
 <h4>3.2 Prevent Multiple Bookings by the Same User</h4>
 To ensure fair usage, each user is allowed only one desk reservation per day.</br>
+
+<b>Validation Flow</b></br></br>
+i. User has already reserved a desk for a selected date.</br>
+ii. User attempts to reserve another desk on the same date.</br>
+iii. The system checks for existing reservation.</br>
+iv. The booking request is blocked.</br></br>
+Outcome: Validation successfully prevents duplicate reservation. </br>
+
 
 
 
