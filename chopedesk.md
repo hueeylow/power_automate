@@ -7,11 +7,11 @@
 <p>In this post, I will walk through the process design and demonstration of the application.</p>
 
 <h3>2. Process Design Flowchart</h3>
-<p>Before building the application, the booking process was mapped out to illustrate the user journey involved in reserving a desk.</p>
+<p>Before building the application, the reservation process is mapped out to illustrate the user journey involved in reserving a desk.</p>
 The application has two user paths:</br>
 
 <h4><b>2.1 Normal User</b></h4>
-Employees can access the portal to manage their own desk reservations: </br>
+Employees can access the portal to manage their own desk reservation: </br>
 </br>
 <b>i. Create a Desk Booking</b></br>
 Users can select a preferred date and reserve any desk that is available for that day.<br><br>
