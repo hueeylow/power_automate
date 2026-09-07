@@ -39,9 +39,9 @@ Administrator can delete reservation belonging to any user when required.<br><br
 <b>iii. View Desk Availability</b></br>
 
 Administrator can also check desk availability based on the selected date.<br><br>
-<b>iv. Create Booking on Behalf of a Employee</b></br>
+<b>iv. Create Booking on Behalf of User</b></br>
 Administrator can create a desk reservation for another user by input his name and select an available desk.
-This is useful when an administrator needs to manage a reservation on behalf of an employee.
+This is useful when an administrator needs to manage a reservation on behalf of user.
 <br>
 
 <h3>3. Power App Application Demo</h3>
@@ -51,17 +51,17 @@ This is useful when an administrator needs to manage a reservation on behalf of 
 <h4>3.1 View Desk Availability and Book a Desk</h4>
 <p>Employee can view current desk availability based on selected date and reserve an available workspace for their preferred date.</p>
 
-<b>i. Demo Flow</b>
+<b>Demo Flow</b></br>
 i. Select a booking date. </br>
 ii. Desk availability is displayed on the right pane of the screen. </br>
 iii. Select an available desk. </br>
 iv. Submit the booking request. </br>
 
 Outcome: Notification on booking request is successfully created. </br></br>
-<b>ii. Desk Availability </b></br>
+<b>a. Desk Availability </b></br>
 [To insert Desk Availability screenshot]</br>
 
-<b>iii. Successful Desk Booking</b></br>
+<b>b. Successful Desk Booking</b></br>
 [To insert Successful Desk Booking screenshot]</br></br>
 
 <h4>3.2 Prevent Multiple Bookings by the Same User</h4>
@@ -74,6 +74,8 @@ iii. The system checks for existing reservation.</br>
 iv. The booking request is blocked.</br></br>
 Outcome: Validation successfully prevents duplicate reservation. </br>
 
+<b>a. Desk Availability </b></br>
+[To insert Desk Availability screenshot]</br>
 
 
 
