@@ -32,15 +32,15 @@ A desk that has already been reserved for a selected date cannot be booked by an
 Administrator have additional access and functionality to manage reservations across all users: <br><br>
 <b>[To insert process chart]</b></br></br>
 <b>i. View All Booking Reservations</b></br>
-Administrator can view booking summaries and reservation details for all employees.
+Administrator can view booking summaries and reservation details for all users.
 This provides a centralised overview of desk usage.<br><br>
-<b>ii. Delete Any Employee's Booking</b></br>
-Administrator can delete reservation belonging to any employee when required.<br><br>
+<b>ii. Delete Any User's Booking</b></br>
+Administrator can delete reservation belonging to any user when required.<br><br>
 <b>iii. View Desk Availability</b></br>
 
 Administrator can also check desk availability based on the selected date.<br><br>
 <b>iv. Create Booking on Behalf of a Employee</b></br>
-Administrator can create a desk reservation for another employee by input his name and select an available desk.
+Administrator can create a desk reservation for another user by input his name and select an available desk.
 This is useful when an administrator needs to manage a reservation on behalf of an employee.
 <br>
 
@@ -49,16 +49,25 @@ This is useful when an administrator needs to manage a reservation on behalf of 
 <p><b>Chope My Desk App </b> enables employees to view desk availability, reserve desk, and manage their reservation. To ensure fair usage and booking integrity, the application prevents multiple bookings by the same employee and eliminates double-booking conflicts. </p>
 
 <h4>3.1 View Desk Availability and Book a Desk</h4>
-<p>Employee can view current desk availability based on selected date and reserve an available desk for their preferred date .</p>
+<p>Employee can view current desk availability based on selected date and reserve an available workspace for their preferred date.</p>
 
-<b>Demo Flow</b>
+<b>i. Demo Flow</b>
 1. Select a booking date. </br>
 2. Desk availability is displayed on the right pane of the screen. </br>
 3. Select an available desk. </br>
 4. Submit the booking request. </br>
 
-Outcome: Notification on booking request is successfully created. </br>
-<h4>Desk Availability</h4></br>
+Outcome: Notification on booking request is successfully created. </br></br>
+<b>ii. Desk Availability </b></br>
+<b>[To insert Desk Availability screenshot]</b></br>
+
+<b>iii. Successful Desk Booking</b></br>
+<b> [To insert Successful Desk Booking screenshot]<b/></br></br>
+
+
+<h4>3.2 Prevent Multiple Bookings by the Same User/h4>
+
+
 
 
 <h3><b>Be right back. Editing in progress .. </b></h3>
