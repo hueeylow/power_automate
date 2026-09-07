@@ -10,6 +10,8 @@
 <p>Before building the application, the reservation process is mapped out to illustrate the user journey involved in reserving a desk.</p>
 The application has two user paths:</br>
 
+[To insert process chart]<br>
+
 <h4><b>2.1 Normal User</b></h4>
 Employees can access the portal to manage their own desk reservation: </br>
 </br>
@@ -28,6 +30,7 @@ A desk that has already been reserved for a selected date cannot be booked by an
 
 <h4><b>2.2 Administrator</b></h4>
 Administrator have additional access and functionality to manage reservations across all users: <br><br>
+[To insert process chart]</br>
 <b>i. View All Booking Reservations</b></br>
 Administrator can view booking summaries and reservation details for all employees.
 This provides a centralised overview of desk usage.<br><br>
