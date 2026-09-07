@@ -37,10 +37,15 @@ This provides a centralised overview of desk usage.<br><br>
 <b>ii. Delete Any Employee's Booking</b></br>
 Administrator can delete reservation belonging to any employee when required.<br><br>
 <b>iii. View Desk Availability</b></br>
+
 Administrator can also check desk availability based on the selected date.<br><br>
 <b>iv. Create Booking on Behalf of a Employee</b></br>
 Administrator can create a desk reservation for another employee by input his name and select an available desk.
 This is useful when an administrator needs to manage a reservation on behalf of an employee.
 <br><br>
+
+<h3>Power App Application Demo</h3>
+
+
 
 <h3><b>Be right back. Editing in progress .. </b></h3>
