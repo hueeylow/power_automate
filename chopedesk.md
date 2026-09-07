@@ -59,13 +59,13 @@ This is useful when an administrator needs to manage a reservation on behalf of 
 
 Outcome: Notification on booking request is successfully created. </br></br>
 <b>ii. Desk Availability </b></br>
-<b>[To insert Desk Availability screenshot]</b></br>
+[To insert Desk Availability screenshot]</br>
 
 <b>iii. Successful Desk Booking</b></br>
-<b> [To insert Successful Desk Booking screenshot]<b/></br></br>
+[To insert Successful Desk Booking screenshot]</br></br>
 
-
-<h4>3.2 Prevent Multiple Bookings by the Same User/h4>
+<h4>3.2 Prevent Multiple Bookings by the Same User</h4>
+To ensure fair usage, each user is allowed only one desk reservation per day.</br>
 
 
 
