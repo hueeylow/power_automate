@@ -11,12 +11,12 @@
 The application has two user paths:</br>
 
 <h4><b>2.1 Normal User</b></h4>
-Employees can access the portal to manage their own desk reservations - </br>
+Employees can access the portal to manage their own desk reservations: </br>
 </br>
 <b>i. Create a Desk Booking</b></br>
 Users can select a preferred date and reserve any desk that is available for that day.<br><br>
 <b>ii. View Booking Summary</b></br>
-Users can view their current reservation details, including the <b>booking date and reserved desk.</b><br><br>
+Users can view their current reservation details, including the booking date and reserved desk.<br><br>
 <b>iii. Delete Own Booking</b></br>
 Users can remove their own reservation when the desk is no longer required.</b><br><br>
 <b>iv. View Desk Availability</b></br>
@@ -27,7 +27,7 @@ Users cannot create more than one reservation for the same day.</b><br><br>
 A desk that has already been reserved for a selected date cannot be booked by another user.</b><br><br>
 
 <h4><b>2.2 Administrator</b></h4>
-Administrator have additional access and functionality to manage reservations across all users - <br><br>
+Administrator have additional access and functionality to manage reservations across all users: <br><br>
 <b>i. View All Booking Reservations</b></br>
 Administrator can view booking summaries and reservation details for all employees.
 This provides a centralised overview of desk usage.<br><br>
