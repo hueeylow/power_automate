@@ -45,7 +45,20 @@ This is useful when an administrator needs to manage a reservation on behalf of 
 <br>
 
 <h3>3. Power App Application Demo</h3>
+<h4>Overview</h4>
+<p><b>Chope My Desk App </b> enables employees to view desk availability, reserve desk, and manage their reservation. To ensure fair usage and booking integrity, the application prevents multiple bookings by the same employee and eliminates double-booking conflicts. </p>
 
+<h4>3.1 View Desk Availability and Book a Desk</h4>
+<p>Employee can view current desk availability based on selected date and reserve an available desk for their preferred date .</p>
+
+<b>Demo Flow</b>
+1. Select a booking date. </br>
+2. Desk availability is displayed on the right pane of the screen. </br>
+3. Select an available desk. </br>
+4. Submit the booking request. </br>
+
+Outcome: Notification on booking request is successfully created. </br>
+<h4>Desk Availability</h4></br>
 
 
 <h3><b>Be right back. Editing in progress .. </b></h3>
