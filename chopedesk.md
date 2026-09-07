@@ -67,17 +67,18 @@ Outcome: Notification on booking request is successfully created. </br></br>
 <h4>3.2 Prevent Multiple Bookings by the Same User</h4>
 To ensure fair usage, each user is allowed only one desk reservation per day.</br></br>
 
-<b>Validation Flow</b></br></br>
+<b>Validation Flow</b></br>
 i. User has already reserved a desk for a selected date.</br>
 ii. User attempts to reserve another desk on the same date.</br>
 iii. The system checks for existing reservation.</br>
 iv. The booking request is blocked.</br></br>
 Outcome: Validation successfully prevents duplicate reservation. </br>
 
-<b>a. Desk Availability </b></br>
-[To insert Desk Availability screenshot]</br>
+<b>a. Existing Reservation Found </b></br>
+[To insert user existing reservation screenshot]</br>
 
-
+<b>b. Duplicate Booking Validation Message </b></br>
+[To insert you already have a booking for this date screenshot]</br>
 
 
 <h3><b>Be right back. Editing in progress .. </b></h3>
