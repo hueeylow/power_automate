@@ -65,7 +65,7 @@ Outcome: Notification on booking request is successfully created. </br></br>
 [To insert Successful Desk Booking screenshot]</br></br>
 
 <h4>3.2 Prevent Multiple Bookings by the Same User</h4>
-To ensure fair usage, each user is allowed only one desk reservation per day.</br>
+To ensure fair usage, each user is allowed only one desk reservation per day.</br></br>
 
 <b>Validation Flow</b></br></br>
 i. User has already reserved a desk for a selected date.</br>
