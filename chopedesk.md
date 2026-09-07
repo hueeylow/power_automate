@@ -10,7 +10,7 @@
 <p>Before building the application, the reservation process is mapped out to illustrate the user journey involved in reserving a desk.</p>
 The application has two user paths:</br>
 </br>
-<b>[To insert process chart]</b></br></br>
+<b>[To insert process chart]</b></br>
 
 <h4><b>2.1 Normal User</b></h4>
 Employees can access the portal to manage their own desk reservation: </br>
@@ -26,7 +26,7 @@ The main page displays real-time desk availability based on the selected date.</
 <b>v. Prevent Multiple Bookings</b></br>
 Users cannot create more than one reservation for the same day.</b><br><br>
 <b>vi. Prevent Double Booking</b></br>
-A desk that has already been reserved for a selected date cannot be booked by another user.</b><br><br>
+A desk that has already been reserved for a selected date cannot be booked by another user.</b><br>
 
 <h4><b>2.2 Administrator</b></h4>
 Administrator have additional access and functionality to manage reservations across all users: <br><br>
@@ -42,8 +42,7 @@ Administrator can also check desk availability based on the selected date.<br><b
 <b>iv. Create Booking on Behalf of User</b></br>
 Administrator can create a desk reservation for another user by input his name and select an available desk.
 This is useful when an administrator needs to manage a reservation on behalf of user.
-<br>
-
+</br></br>
 <h3>3. Power App Application Demo</h3>
 <h4>Overview</h4>
 <p><b>Chope My Desk App </b> enables employees to view desk availability, reserve desk, and manage their reservation. To ensure fair usage and booking integrity, the application prevents multiple bookings by the same employee and eliminates double-booking conflicts. </p>
@@ -81,7 +80,6 @@ Outcome: Validation successfully prevents duplicate reservation. </br>
 [To insert you already have a booking for this date screenshot]</br>
 
 <h4>3.3 Prevent Double Booking of the Same Desk</h4>
-
 The application ensures that a desk can only be reserved once for a given date. </br></br>
 
 <b>Validation Flow</b></br>
@@ -116,6 +114,36 @@ Outcome: Users can maintain their own reservations without administrator interve
 <b>b. Reservation Deleted Successfully</b></br>
 [To insert successful deletion notification]</br>
 
+<h4>Key Features and Controls</h4>
 
+<table style="border-collapse: collapse; width: 100%;">
+<tr>
+<th style="border:1px solid #666; padding:10px;">Feature</th>
+<th style="border:1px solid #666; padding:10px;">Description</th>
+</tr>
+<tr>
+<td style="border:1px solid #666; padding:10px;">Desk Availability</td>
+<td style="border:1px solid #666; padding:10px;">Users can view desk availability on landing page</td>
+</tr>
+<tr>
+<td style="border:1px solid #666; padding:10px;">Single Booking Per Day</td>
+<td style="border:1px solid #666; padding:10px;">Users cannot reserve more than one desk on the same day</td>
+</tr>
+<tr>
+<td style="border:1px solid #666; padding:10px;">Double-Booking Prevention</td>
+<td style="border:1px solid #666; padding:10px;">A desk can only have one reservation per date</td>
+</tr>
+<tr>
+<td style="border:1px solid #666; padding:10px;">Reservation Management</td>
+<td style="border:1px solid #666; padding:10px;">Users can delete their own reservations</td>
+</tr>
+<tr>
+<td style="border:1px solid #666; padding:10px;">User-Friendly Experience</td>
+<td style="border:1px solid #666; padding:10px;">Simple workflow with clear validation messages</td>
+</tr>
+</table>
+
+<h3>4. Summary</h3>
+<p>The <b>Chope My Desk App</b> provides a streamlined desk reservation experience while enforcing key control mechanisms to ensure booking accuracy. Through automated validation checks, the application prevents both multiple bookings by the same user and double-booking of desks, creating a reliable and efficient workspace booking solution.</p>
 
 <h3><b>Be right back. Editing in progress .. </b></h3>
