@@ -42,9 +42,9 @@ Administrator can also check desk availability based on the selected date.<br><b
 <b>iv. Create Booking on Behalf of a Employee</b></br>
 Administrator can create a desk reservation for another employee by input his name and select an available desk.
 This is useful when an administrator needs to manage a reservation on behalf of an employee.
-<br><br>
+<br>
 
-<h3>Power App Application Demo</h3>
+<h3>3. Power App Application Demo</h3>
 
 
 
